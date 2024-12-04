@@ -1,0 +1,46 @@
+body{
+    /* chỉnh màu nền */
+    background-color: #e4f7e9;
+}
+
+h1{
+    /* chỉnh màu chữ */
+    color: red;
+    /* chỉnh font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /* chỉnh cỡ chữ */
+    font-size: 40px;
+    /* căn lề */
+    text-align: center;
+}
+
+span{
+    /* Độ đạm nhạt của chữ */
+    font-weight: bold;
+    /* Kiểu chữ: in nghiêng */
+    font-style: italic;
+    /* Trang trí cho chữ */
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    /* vòng tròn trắng */
+    list-style: circle;
+    /* vòng tròn đen */
+    list-style: disc;
+}
+
+ol{
+    /* Số đếm bình thường */
+    list-style: decimal ;
+    /* Số la mã */
+    list-style:u pper-roman;
+    /* chữ viết thường */
+    list-style: lower-alpha ;
+    /* chữ viết hoa */
+    list-style: upper-alpha;
+}
