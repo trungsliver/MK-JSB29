@@ -1,0 +1,42 @@
+span{
+    background-color: lightgreen;
+}
+
+/* CSS cho class */
+.block{
+    font-weight: bold;
+    /* thuộc tính display - hiển thị */
+    display: block;
+    /* block: chỉnh được chiều ngang và chiều cao */
+    width: 250px;
+    height: 50px;
+}
+
+.inline{
+    display: inline;
+    /* inline: không chỉnh được chiều ngang và chiều cao */
+    width: 250px;
+    height: 50px;
+    color: red;
+}
+
+.inline-block{
+    display: inline-block;
+    /* inline-block: không chỉnh được chiều ngang và chiều cao */
+    width: 250px;
+    height: 50px;
+}
+
+/* CSS cho id */
+#title{
+    /* căn lề giữa */
+    text-align: center;
+}
+
+.vietnamese{
+    font-family: "VT323", monospace;
+}
+
+.english{
+    font-family: "Creepster", system-ui;
+}
