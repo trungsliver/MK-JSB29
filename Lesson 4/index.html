@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Code chuyển slides của w3school -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <!-- Navigation (always stay on top) -->
+    <div class="nav">
+        <!-- 1 thẻ có 2 class -->
+        <a href="#home" class="navbar-item navbar-button">Home</a>
+        <a href="#about" class="navbar-item navbar-button">About</a>
+        <a href="#members" class="navbar-item navbar-button">Members</a>
+        <a href="#contact" class="navbar-item navbar-button">Contact</a>
+    </div>
+    
+    <!-- Home -->
+    <div id="home" class="w3-content">
+        <!-- Slides -->
+         <img src="./image/img_ch.jpg" alt="" class="slides" width="100%">
+         <img src="./image/img_ny.jpg" alt="" class="slides" width="100%">
+         <img src="./image/img_la.jpg" alt="" class="slides" width="100%">
+         <script>
+            w3.slideshow('.slides', 1500)
+        </script>
+
+        <!-- About -->
+            <!-- div#about.padding-32 -->
+        <div id="about" class="padding-32">
+            <h1 class="center">The Band</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nulla totam at dolorem quaerat possimus veniam repudiandae expedita impedit omnis inventore aliquid nihil, tempora similique et eaque repellendus aspernatur eveniet ullam, porro beatae illum modi quae. Error perferendis nemo dolore ipsa doloremque quasi repudiandae pariatur saepe quia non. Ratione, laudantium!</p>
+        </div>
+
+        <!-- Members -->
+         <div id="members">
+            <h1 class="center">Members</h1>
+            <div class="row center">
+                <div class="third">
+                    <img src="./image/img_bandmember.jpg" alt="" width="60%">
+                </div>
+                <div class="third">
+                    <img src="./image/img_bandmember.jpg" alt="" width="60%">
+                </div>
+                <div class="third">
+                    <img src="./image/img_bandmember.jpg" alt="" width="60%">
+                </div>
+            </div>
+         </div>
+
+         <!-- Contact -->
+        <div id="contact" class="padding-32 center">
+            <h1 class="center">Contact</h1>
+            <p>Chicago, US</p>
+            <p>Phone: 09666674287</p>
+            <p>Email: buiductrung.cva@gmail.com</p>
+            <p class="opacity">Fan? Drop a note!</p>
+
+            <form action="">
+                <input type="text" class="w3-input" placeholder="'Name">
+                <input type="text" class="w3-input" placeholder="'Email">
+                <input type="text" class="w3-input" placeholder="'Message">
+                <br>
+                <button class="'w3-button w3-black">SEND</button>
+            </form>
+
+            <br>
+            <img src="./image/map.jpg" class="w3-image"style="'width:100%">
+            <p class="w3-center">Powered by <a href="">theBand.css</a></p>
+        </div>
+    </div>
+    
+
+</body>
+</html>

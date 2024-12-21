@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* Chiều cao & chiều ngang tính cả viền */
+    box-sizing: border-box;
+    /* Chỉnh font chữ */
+    font-family: Verdana, sans-serif;
+    /* Chỉnh cỡ chứ */
+    font-size: 15px;
+    /* Độ cao của dòng */
+    line-height: 1.5;
+    /* Loại bỏ gạch chân, hiệu ứng của chữ */
+    text-decoration: none;
+    /* Loại bỏ viền */
+    outline: none;
+    border: none;
+}
+
+/* Chỉnh cho navigation */
+.nav{
+    /* Chỉnh màu nền */
+    background-color: black;
+    /* Chỉnh vị trí cố định khi cuộn trang */
+    position: fixed;
+    /* chỉnh chiều ngang full màn hình */
+    width: 100%;
+    /* Chỉnh khoảng cách từ chữ đến viền */
+    padding: 10px;
+    /* Chỉnh thứ tự trước sau, để thanh nav luôn ở trên */
+    z-index: 1;
+}
+
+.navbar-item{
+    /* Chỉnh màu chữ */
+    color: white !important;
+    /* Chỉnh padding */
+    padding: 12px 16px;
+    /* Chiều cao = 100% đối tượng chứa nó */
+    height: 100%;
+}
+
+/* Khi di chuột vào đối tượng */
+.navbar-item:hover{
+    /* Chỉnh màu chữ */
+    color: black !important;
+    /* Chỉnh màu nền */
+    background-color: lightgrey;
+}
+
+#home{
+    /* Chỉnh chiều ngang tối đa */
+    max-width: 980px;
+    /* Căn giữa cho đối tượng */
+    margin: auto;
+}
+
+.center{
+    /* Căn giữa cho đối tượng */
+    text-align: center;
+}
+
+.padding-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.third{
+    width: 33%;
+}
+
