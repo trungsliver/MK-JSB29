@@ -73,3 +73,46 @@
     width: 33%;
 }
 
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p{
+    margin: 10px 0
+}
+
+.w3-input{
+    display: block;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.w3-black{
+    color: white !important;
+    background-color: black !important;
+    
+}
+
+.w3-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Khi di chuột vào đối tượng */
+.w3-button:hover{
+    color: black !important;
+    background-color:grey !important;
+}
+
+.w3-image{
+    max-width: 100%;
+    height: auto;
+}
